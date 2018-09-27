@@ -1,6 +1,6 @@
 require_relative 'config/environment'
 
-class App < Sinatra::Base
+class Application < Sinatra::Base
 
   get '/' do 
     "I built this"
